@@ -54,7 +54,7 @@
                     Click="GenerateButton_Click"
                     Foreground="#3E3B39" 
                     BorderThickness="0" 
-                    Background="#FEB14C" 
+                    Background="#FD8D3C" 
                     FontFamily="Calibri" 
                     FontWeight="Normal"
                     FontSize="25" 
