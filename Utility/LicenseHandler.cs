@@ -37,7 +37,7 @@ namespace DayLightKeyGenerator.Utility
                 int birler = Convert.ToInt32(license[license.Length - i - 1]) - 48;
                 int onlar = Convert.ToInt32(license[license.Length - i - 2]) - 48;
                 onlar = onlar * 10;
-                int decoded = (birler + onlar) / 4 - 11;
+                double decoded = (birler + onlar) / 4f - 11f;
                 decodedId += decoded.ToString();
             }
             return decodedId == machineId;
